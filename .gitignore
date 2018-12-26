@@ -1,0 +1,7 @@
+*~
+*.o
+tmp*
+macc
+.vscode
+*.dSYM
+bin
