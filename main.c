@@ -13,8 +13,6 @@ int main(int argc, char** argv) {
   Token* tokens = tokenize(argv[1]);
   Node* node = parse(tokens);
 
-  fprintf(stderr, "%d", node->ty);
-
   // Output the first part of the assembly. 
   printf(".intel_syntax noprefix\n");
 
